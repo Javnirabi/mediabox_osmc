@@ -1,0 +1,31 @@
+<keymap>
+  <global>
+    <keyboard>
+      <key id="61952">contextmenu</key>
+      <key id="61576">activatewindow(startwindow)</key>
+      <f10>noop</f10>
+    </keyboard>
+	<mouse>
+	  <leftclick>select</leftclick>
+	  <rightclick>PreviousMenu</rightclick>
+	  <middleclick>info</middleclick>
+	  <mousedrag>noop</mousedrag>
+	  <mousemove>noop</mousemove>
+	</mouse>
+  </global>
+  <Home>
+    <keyboard>
+      <key id="61576">FullScreen</key>
+    </keyboard>
+  </Home>
+  <TVGuide>
+    <keyboard>
+      <key id="61952">FullScreen</key>
+    </keyboard>
+  </TVGuide>
+  <fullscreenlivetv>
+    <keyboard>
+      <key id="61952">activatewindow(tvguide)</key>
+    </keyboard>
+  </fullscreenlivetv>
+</keymap>
