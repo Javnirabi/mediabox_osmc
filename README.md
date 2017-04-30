@@ -1,5 +1,6 @@
 #mediabox_osmc
 
 *SHARED FOLDER BTSYNC*
-key folder\n
+key folder
+
 BBZ2IUPEHHV6FR4WIBQOXMCQI5PWG2THO
