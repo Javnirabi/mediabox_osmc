@@ -1,0 +1,22 @@
+Baixar playlist de músicas em mp3 = $ youtube-dl -ci -f 140 -x --audio-format mp3 -o '%(title)s.%(ext)s' "URL" --download-archive baixados.db
+
+Baixar playlist de videos  720p = $ youtube-dl -ci -f 22 -o '%(title)s.%(ext)s' "URL" --download-archive baixados.db
+
+Baixar playlist de videos 1080p = $ youtube-dl -ci -f 137+140 -o '%(title)s.%(ext)s' "URL" --download-archive baixados.db
+
+
+
+
+BAIXAR BUSCANDO NUM ARQUIVO DE TEXTO
+
+Baixar playlist de músicas em mp3 = $ youtube-dl -ci -f 140 -x --audio-format mp3 -o '%(title)s.%(ext)s' -a arq.abaixar --download-archive baixados.db
+
+Baixar playlist de videos  720p = $ youtube-dl -ci -f 22 -o '%(title)s.%(ext)s' -a arq.abaixar --download-archive baixados.db
+
+Baixar playlist de videos 1080p = $ youtube-dl -ci -f 137+140 -o '%(title)s.%(ext)s' -a arq.abaixar --download-archive baixados.db
+
+
+
+
+OBS: Mantenha as URL sempre entre ASPAS
+
