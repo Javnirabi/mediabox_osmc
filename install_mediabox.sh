@@ -23,7 +23,7 @@ sudo pip install lxml cryptography pyopenssl youtube-dl
 sudo git clone http://github.com/RuudBurger/CouchPotatoServer /opt/couchpotato
 sudo git clone https://github.com/rembo10/headphones.git /opt/headphones
 sudo git clone https://github.com/SickRage/SickRage.git /opt/sickrage
-sudo git clone https://github.com/javnirabi/doclimus.git /opt/doclimus
+sudo git https://github.com/Javnirabi/mediabox_osmc/tree/master/doclimus /opt/doclimus
 
 #change own and create folders
 sudo chown -R osmc:osmc /opt/headphones /opt/couchpotato /opt/sickrage /opt/doclimus
