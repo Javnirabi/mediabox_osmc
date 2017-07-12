@@ -24,6 +24,7 @@ sudo git clone http://github.com/RuudBurger/CouchPotatoServer /opt/couchpotato
 sudo git clone https://github.com/rembo10/headphones.git /opt/headphones
 sudo git clone https://github.com/SickRage/SickRage.git /opt/sickrage
 sudo git https://github.com/Javnirabi/mediabox_osmc/tree/master/doclimus /opt/doclimus
+wget https://raw.githubusercontent.com/audstanley/NodeJs-Raspberry-Pi/master/Install-Node.sh -O- | bash
 
 #change own and create folders
 sudo chown -R osmc:osmc /opt/headphones /opt/couchpotato /opt/sickrage /opt/doclimus
